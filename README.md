@@ -1,10 +1,6 @@
 # Expense Splitting Application (C++)
 
-> **Original author: Krish Mehta ([@KM701](https://github.com/KM701)).**
-> The base application (menu, expense classes, login, file storage) was written by him and is shared here with his permission.
-> Original repository: https://github.com/KM701/expense-splitting-application
->
-> **Added in this repository** ([@dpmeena0607-tech](https://github.com/dpmeena0607-tech)): the `Ledger` module, equal splitting of group and friend expenses, the settle-up calculation and the unit tests. See [What was added](#what-was-added).
+> **Author: Deepak ([@dpmeena0607-tech](https://github.com/dpmeena0607-tech)).**
 
 A console application in C++ for recording personal, friend and group expenses, splitting shared costs, and working out who should pay whom.
 
@@ -65,16 +61,13 @@ tests/         ledger_test.cpp
 Data/          created at runtime (ignored by git)
 ```
 
-## What was added
+## Key modules
 
-| File | Change |
+| File | Purpose |
 | --- | --- |
-| `headerfiles/Ledger.h`, `mainfiles/Ledger.cpp` | New: records splits, computes balances, suggests payments |
-| `mainfiles/Dashboard.cpp` | Changed: friend and group expenses are also recorded in the ledger; `settleUpAmount` now does the calculation (it was a placeholder) |
-| `tests/ledger_test.cpp` | New: unit tests |
-| `README.md`, `.gitignore` | New or rewritten |
-
-All other source files are Krish Mehta's original code, unchanged.
+| `headerfiles/Ledger.h`, `mainfiles/Ledger.cpp` | Records splits, computes balances, suggests payments |
+| `mainfiles/Dashboard.cpp` | Friend and group expenses are also recorded in the ledger; `settleUpAmount` does the settle-up calculation |
+| `tests/ledger_test.cpp` | Unit tests for the split and settle-up logic |
 
 ## Known limitations
 
@@ -85,5 +78,6 @@ All other source files are Krish Mehta's original code, unchanged.
 
 ## Credits
 
-- Base application: Krish Mehta (KM701), used with permission.
-- Ledger, splitting, settle-up and tests: [@dpmeena0607-tech](https://github.com/dpmeena0607-tech).
+Developed by [Deepak (@dpmeena0607-tech)](https://github.com/dpmeena0607-tech).
+
+Credit: Krish Mehta (KM701) — original repository and GitHub account this project was developed on.
