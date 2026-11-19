@@ -80,4 +80,3 @@ Data/          created at runtime (ignored by git)
 
 Developed by [Deepak (@dpmeena0607-tech)](https://github.com/dpmeena0607-tech).
 
-Credit: Krish Mehta (KM701) — original repository and GitHub account this project was developed on.
